@@ -1,0 +1,50 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.display {
+    margin-bottom: 10px;
+}
+.display .current-number {
+    font-size: 2rem;
+    text-align: right;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.display .previous-number {
+    font-size: 1rem;
+    text-align: right;
+    color: #6c757d;
+    padding: 5px;
+}
+button {
+    font-size: 1.25rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+.btn-operand {
+    background-color: #f1f3f5;
+    border: 1px solid #ced4da;
+}
+.btn-operand:hover {
+    background-color: #e9ecef;
+}
+.btn-num {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+}
+.btn-num:hover {
+    background-color: #e9ecef;
+}
+.btn-equal {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #007bff;
+}
+.btn-equal:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}
